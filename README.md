@@ -6,3 +6,6 @@ The counters.conf file can be used to assign the number and the rate of the coun
 
 2. Prober is a Python tool that probes at the OIDS provided as arguments.
 It prints out the rate of change of the counters at the OIDS.
+
+3. Ratewrapper is a Python wrapper script to send the rates calculated by Prober into an Influxdb and hence, Grafana. The required dashboard json file is also provided.
+It requires manual setting up of datasources in Grafana.
