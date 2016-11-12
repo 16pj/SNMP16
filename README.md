@@ -9,3 +9,6 @@ It prints out the rate of change of the counters at the OIDS.
 
 3. Ratewrapper is a Python wrapper script to send the rates calculated by Prober into an Influxdb and hence, Grafana. The required dashboard json file is also provided.
 It requires manual setting up of datasources in Grafana.
+
+4. Trolltrapper is an SNMP traphandling system that is written in Perl and the web interface requires Apache and MySQL.
+This system handles traps receives DANGER and FAIL traps sent from other devices to the local IP and sends traps to the IP address specified by the Web interface via table.php.
